@@ -4,7 +4,7 @@ import userRoutes from "./routes/userRoutes.js";
 import postRoutes from "./routes/postRoutes.js";
 import profileRoutes from "./routes/profileRoutes.js";
 import { connectDB } from "./config/db.js";
-import Colors from "Colors";
+import colors from "colors";
 import cors from "cors";
 
 dotenv.config();
